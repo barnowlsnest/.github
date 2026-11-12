@@ -35,8 +35,10 @@ database for state, events and coordination.
 | [pgqs-tenants](https://github.com/barnowlsnest/pgqs-tenants) | Multi-tenancy with one schema per tenant and lifecycle events |
 | [pgqs-leaderelection](https://github.com/barnowlsnest/pgqs-leaderelection) | Leader election backed by PostgreSQL |
 
-### 🤖 AI-assisted engineering
+## 🤖 AI-assisted engineering
 
 | Repo | What it is |
 |------|------------|
 | [cc-skills-golang-fork](https://github.com/barnowlsnest/cc-skills-golang-fork) | Forking the  https://github.com/samber/cc-skills-golang - the agent skills for idiomatic, production-grade Go |
+
+Agents in the workflow: Claude Code, Cursor and Copilot(for automatic PR reviews)
