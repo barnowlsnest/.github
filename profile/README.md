@@ -2,7 +2,7 @@
 
 **A nest of ideas for software engineering projects, with an AI twist.**
 
-Here I build small, focused, dependency-light building blocks for backend systems, mostly in Go but also TypeScript, NextJS,
+Here I build small, focused, dependency-light building blocks for backend systems, mostly in Go,
 and put them together into larger services. Each library does one thing, is tested on its own,
 and can be used without the rest of the nest.
 
