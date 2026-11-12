@@ -10,7 +10,6 @@ and can be used without the rest of the nest.
 
 - **Small and composable.** Each library is useful by itself, and they combine into services.
 - **Few dependencies.** Use the standard library first and add dependencies only when they pay for themselves.
-- **Use the infrastructure you already run.** PostgreSQL and the filesystem can carry more than people expect.
 - **Human-designed, AI-assisted.** I make the design, the architecture and the core decisions myself. AI agents help me find bugs, review and refactor code, and write some of the implementation, so I get clean results faster.
 
 ## Projects
@@ -37,19 +36,6 @@ database for state, events and coordination.
 | [pgqs-harness](https://github.com/barnowlsnest/pgqs-harness) | Shared foundation: pools, `LISTEN/NOTIFY`, migrations, generic DAO |
 | [pgqs-tenants](https://github.com/barnowlsnest/pgqs-tenants) | Multi-tenancy with one schema per tenant and lifecycle events |
 | [pgqs-leaderelection](https://github.com/barnowlsnest/pgqs-leaderelection) | Leader election backed by PostgreSQL |
-
-### 🧰 Go libraries
-
-| Repo | What it is |
-|------|------------|
-| [go-actorlib](https://github.com/barnowlsnest/go-actorlib) | Actors on top of goroutines and channels |
-| [go-asynctasklib](https://github.com/barnowlsnest/go-asynctasklib) | Async tasks with retries, state hooks and worker pools |
-| [go-circuitbreakerlib](https://github.com/barnowlsnest/go-circuitbreakerlib) | Circuit breaker for HTTP, gRPC and TCP dependencies |
-| [go-connpoollib](https://github.com/barnowlsnest/go-connpoollib) | `net.Conn` connection pool |
-| [go-ringbufferlib](https://github.com/barnowlsnest/go-ringbufferlib) | Ring (circular) buffer |
-| [go-datalib](https://github.com/barnowlsnest/go-datalib) | General-purpose data structures |
-| [go-configlib](https://github.com/barnowlsnest/go-configlib) | Map flags and env vars to struct fields (built on viper) |
-| [go-logslib](https://github.com/barnowlsnest/go-logslib) | Minimal logging with few dependencies |
 
 ### 🤖 AI-assisted engineering
 
